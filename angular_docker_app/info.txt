@@ -1,0 +1,10 @@
+check >>>>
+
+Dockerfile >>
+COPY --from=build /app/dist/angular_docker_app/ /usr/share/nginx/html
+
+angular.json file for package name
+
+outputPath": "dist/angular_docker_app",
+
+vi src/app/app.component.html >>> Index file for Angular JS
