@@ -1,1 +1,3 @@
+For React application need node base image.
+
 vi src/App.js  >>> Index file for React App

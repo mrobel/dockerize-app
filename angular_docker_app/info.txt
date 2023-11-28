@@ -1,4 +1,5 @@
 check >>>>
+For angular application need node base image.
 
 Dockerfile >>
 COPY --from=build /app/dist/angular_docker_app/ /usr/share/nginx/html
